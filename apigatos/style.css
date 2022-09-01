@@ -1,0 +1,23 @@
+h1{
+    font-family: 'Pacifico', cursive;
+}
+
+#button-change-cat{
+    background-color: rgb(197 190 232);
+    border-radius: 26px;
+    height: 46px;
+    cursor: pointer;
+}
+
+
+#img1{
+    width: 350px;
+}
+
+#img2 {
+    width: 350px; 
+}
+
+#img3{
+    width: 350px;   
+}
