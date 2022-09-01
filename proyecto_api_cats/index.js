@@ -3,6 +3,7 @@ window.addEventListener('DOMContentLoaded',loadCatRandom);
 const buttons= document.getElementById("button-change-cat");
 buttons.addEventListener("click", loadCatRandom)
 
+const spanError= document.getElementById("error");
 
 async function loadCatRandom(){
     const apiRandom="https://api.thecatapi.com/v1/images/search?limit=2&api_key=live_mLObpbU9DhqGqlW795tLSWG87wVatDbDztfcWAe1GxTm4s5eeyH14N7iDWCIEVth";
