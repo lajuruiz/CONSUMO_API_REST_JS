@@ -9,19 +9,42 @@ html{
 }
 
 body{
-    background-color: rgb(219, 193, 244);
+    background-color:  rgb(147 181 232);
 }
 h1{
     font-family: 'Pacifico', cursive;
     text-align: center;
+    height: 95px;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+
 }
 
 h2{
     text-align: center;
+    font-family: 'Pacifico';
+    margin: 30px;
+    color: white;
+}
+
+.box-principle{
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn1{
+    display: inherit;
+    margin: auto;
+}
+
+#btn2{
+    display: inherit;
+    margin: auto;
 }
 
 button{
-    background-color: rgb(197 190 232);
+    background-color: rgb(118, 152, 225);
     border-radius: 26px;
     height: 50px;
     width: 200px;
@@ -33,7 +56,7 @@ button{
 }
 
 #button-change-cat{
-    background-color: rgb(197 190 232);
+    background-color: rgb(157, 186, 248);
     border-radius: 26px;
     height: 46px;
     width: 150px;
@@ -45,9 +68,30 @@ button{
 }
 
 #img1{
-    width: 300px;
+    width:350px;
+    height: 250px;
 }
 
 #img2 {
-    width: 300px; 
+    width: 350px; 
+    height: 250px;
+}
+
+#favoriteCats{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+article{
+    justify-content: center;
+    width: 246px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.button-change{
+    display: flex;
+    justify-content: center;
 }
