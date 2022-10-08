@@ -32,6 +32,8 @@ async function loadRandomCats(){
     console.log("random");
     console.log(data);
 
+    //cualquier cosa que no sea 200
+    
     if(response.status !== 200 ){
         SPAN_ERROR.innerHTML = "hubo un error" +response.status;
     }else{
